@@ -13,6 +13,13 @@ if (SugarLumpsMod === undefined) {
 		variables: {
 			dataLoaded: 0,
 			isLoaded: 0,
+			lumpTypes: {
+				0: "Normal",
+				1: "Bifurcated",
+				2: "Golden",
+				3: "Meaty",
+				4: "Caramelized",
+			}
 		},
 
 		//Settings
@@ -20,6 +27,7 @@ if (SugarLumpsMod === undefined) {
 			//Mod enabled
 			modEnabled: 0,
 			backgroundLumps: 0,
+			showLumpType: 0,
 
 			//Actions
 			changeCheck: 1,
@@ -50,6 +58,7 @@ if (SugarLumpsMod === undefined) {
 			//Mod enabled
 			modEnabled: 0,
 			backgroundLumps: 0,
+			showLumpType: 0,
 
 			//Actions
 			changeCheck: 1,
@@ -212,6 +221,15 @@ if (SugarLumpsMod === undefined) {
 					SugarLumpsMod.settings.overRipeAgeSeconds,
 					"SugarLumpsMod.inputChanged('overRipeAgeSeconds', this.value)"
 				) +
+			'</div>' +
+			'<div class="listing">' +
+			CCSE.MenuHelper.ToggleButton(
+				SugarLumpsMod.settings,
+				"showLumpType",
+				SugarLumpsMod.modData.id + "_" + "showLumpType",
+				'Show Lump Type Enabled', 'Show Lump Type Disabled', "SugarLumpsMod.toggleButtonCallback"
+			) +
+			(SugarLumpsMod.settings.showLumpType ? `<label> The current lump type is: ${SugarLumpsMod.variables.lumpTypes[Game.lumpCurrentType]} sugar lump.</label>` : "") +
 			'</div>';
 		},
 
@@ -270,6 +288,7 @@ if (SugarLumpsMod === undefined) {
 					SugarLumpsMod.actions[key].delayTimer = null;
 				}
 			}
+			Game.UpdateMenu();
 		},
 
 		//Preload variables
