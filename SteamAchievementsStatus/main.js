@@ -6,7 +6,7 @@ if (SteamAchievementsEnabled === undefined)
 			id: "SteamAchievementsStatus",
 			name: "Steam Achievements Status",
 			version: "1.0",
-			gameVer: '2.043'
+			gameVer: '2.048'
 		},
 
 		//Variables of the mod
