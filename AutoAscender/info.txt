@@ -4,7 +4,7 @@
 	"Author": "TheFallender",
 	"Description": "Mod that will ascend as soon as there is at least 1 prestige level.",
 	"ModVersion": 1.0,
-	"GameVersion": 2.043,
+	"GameVersion": 2.048,
 	"Date": "03/01/2022",
 	"AllowSteamAchievs": 1,
 	"Dependencies": ["CCSE"],

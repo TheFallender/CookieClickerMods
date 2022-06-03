@@ -4,7 +4,7 @@
 	"Author": "TheFallender",
 	"Description": "Mod shows you the status of the Steam Achievements and allows you to force them to be enabled.",
 	"ModVersion": 1.0,
-	"GameVersion": 2.043,
+	"GameVersion": 2.048,
 	"Date": "03/01/2022",
 	"AllowSteamAchievs": 1,
 	"Dependencies": ["CCSE"],
