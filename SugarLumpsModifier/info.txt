@@ -3,9 +3,9 @@
 	"ID": "SugarLumpsModifier",
 	"Author": "TheFallender",
 	"Description": "Mod that allows you to modify the mature and ripe age time for the sugar lumps.",
-	"ModVersion": 1.1,
-	"GameVersion": 2.052,
-	"Date": "16/05/2023",
+	"ModVersion": 1.2,
+	"GameVersion": 2.053,
+	"Date": "09/03/2025",
 	"AllowSteamAchievs": 0,
 	"Dependencies": ["CCSE"],
 	"Disabled": 0

@@ -5,8 +5,8 @@ if (SugarLumpsMod === undefined) {
 		modData: {
 			id: "SugarLumpsModifier",
 			name: "Sugar Lumps Modifier",
-			version: "1.1",
-			gameVer: '2.052'
+			version: "1.2",
+			gameVer: '2.053'
 		},
 
 		//Variables of the mod

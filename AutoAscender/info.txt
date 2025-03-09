@@ -3,9 +3,9 @@
 	"ID": "AutoAscender",
 	"Author": "TheFallender",
 	"Description": "Mod that will ascend as soon as there is at least 1 prestige level.",
-	"ModVersion": 1.1,
-	"GameVersion": 2.052,
-	"Date": "16/05/2023",
+	"ModVersion": 1.2,
+	"GameVersion": 2.053,
+	"Date": "09/03/2025",
 	"AllowSteamAchievs": 1,
 	"Dependencies": ["CCSE"],
 	"Disabled": 0
